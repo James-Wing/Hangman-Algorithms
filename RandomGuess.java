@@ -100,7 +100,7 @@ public class RandomGuess {
         char[] newArray;
 
         newArray = ArrayUtils.insert(index, arr, value);
-        //newArray = ArrayUtils.remove(newArray, newArray.length - 1);
+        newArray = ArrayUtils.remove(newArray, newArray.length - 1);
 
         return newArray;
     }
